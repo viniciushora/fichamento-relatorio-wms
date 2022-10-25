@@ -401,7 +401,7 @@ fGetComboOption(xOpc as variant, aComboBx as array)<br>
 | Retorno       | nOption (Opção em número ou nulo)                                                                                |<br><br>
 
 ## Estrutura da Aplicação
-![Estrutrura alto nível](estrutura_resumida.PNG "Estrutrura alto nível")
+![Estrutrura alto nível](estrutura_resumida.png "Estrutrura alto nível")
 
 ## Funções externas
 ### MSAguarde
