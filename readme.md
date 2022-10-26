@@ -356,6 +356,14 @@ fGetWhereAvarias(_aParam as array)<br>
 **Estrutura do fonte**<br>
 ![Estrutrura do fonte |GetEstoqueWms](estrutura7.PNG "Estrutrura do fonte |GetEstoqueWms")
 
+**Imports**
+- Namespace Projects.WMS.ComparacaoEstoques.Classes:
+  - TGestaoWMS.tlpp:
+    - Class TGestaoWMS
+- Namespace Projects.WMS.ComparacaoEstoques.Data:
+  - |SaldosWms.tlpp:
+    - U_UpdSaldoWms(_oXml)
+
 **Funções**<br><br>
 GetEstoqueWms()<br>
 | Sintaxe       | User Function GetEstoqueWms()                                                                                                                                               |
@@ -495,6 +503,18 @@ fGetComboOption(xOpc as variant, aComboBx as array)<br>
 | Parâmetros | aAraay: array              |
 | Descrição  | Retorna o tamanho do array |
 | Retorno    | Número inteiro             |<br>
+### AllTrim
+| Nome       | AllTrim(cCaractere)                                                                            |
+|------------|------------------------------------------------------------------------------------------------|
+| Parâmetros | cCaractere: Texto a ser alterado                                                               |
+| Descrição  | Remove os espaços em branco do início e fim de uma cadeia de caracteres passada como parâmetro |
+| Retorno    | Texto sem os espaços em branco                                                                 |<br>
+### StrTran
+| Nome       | StrTran(cString, cProcura, cSubstitui, nInício, nCont)                            |
+|------------|-----------------------------------------------------------------------------------|
+| Parâmetros | cCaractere: Texto a ser alterado                                                  |
+| Descrição  | StrTran pesquisa e substitui caracteres de uma cadeia de caracteres ou campo memo |
+| Retorno    | Texto com os caracteres substituídos                                              |
 
 ## Objetos
 ### TReport
